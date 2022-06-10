@@ -18,10 +18,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-        // User::truncate();
-
-        // $user = User::factory()->create();
-
         Category::create([
             'name' => 'Economy',
             'slug' => 'economy'
