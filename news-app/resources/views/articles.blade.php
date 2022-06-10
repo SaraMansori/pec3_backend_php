@@ -1,6 +1,6 @@
 <x-header>
 
-    <h1>News site</h1>
+    <h1><a href="/">News site</a></h1>
 
 </x-header>
 
@@ -19,7 +19,7 @@
             Categories:
 
             @foreach ($article->categories as $category)
-            <a href="/categories/{{ $category->id }}">{{ $category->name }}</a> |
+            <a href="/categories/{{ $category->slug }}">{{ $category->name }}</a> |
             @endforeach
 
         </p>
