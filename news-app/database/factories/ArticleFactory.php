@@ -25,6 +25,7 @@ class ArticleFactory extends Factory
             'author' => $this->faker->name(),
             'content' => '<p>' . $this->faker->text() . '</p>',
             'image' => "https://picsum.photos/600/300?random=$randomNumber",
+            'published_at' => $this->faker->dateTime()
         ];
     }
 }

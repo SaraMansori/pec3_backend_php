@@ -19,11 +19,9 @@
         </h1>
 
         <p>
-            Categories:
+            Published at:
 
-            @foreach ($article->categories as $category)
-            <a href="/categories/{{ $category->slug }}">{{ $category->name }}</a> |
-            @endforeach
+            <span>{{ $article->published_at }}</span>
 
         </p>
 
