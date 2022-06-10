@@ -9,6 +9,9 @@
     @foreach ($articles as $article)
 
     <article>
+
+        <img src="{{$article->image}}">
+
         <h1>
             <a href="/articles/{{ $article->id }}">
                 {{ $article->title }}

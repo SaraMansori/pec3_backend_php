@@ -17,11 +17,14 @@ class ArticleFactory extends Factory
      */
 
     public function definition()
+
     {
+        $randomNumber = rand(0, 100);
         return [
             'title' => $this->faker->sentence($nbWords = 6, $variableNbWords = true),
             'author' => $this->faker->name(),
             'content' => '<p>' . $this->faker->text() . '</p>',
+            'image' => "https://picsum.photos/600/300?random=$randomNumber",
         ];
     }
 }

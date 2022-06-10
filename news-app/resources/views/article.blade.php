@@ -1,6 +1,9 @@
 <x-layout>
 
     <article>
+
+        <img src="{{$article->image}}">
+
         <h1>
             {{ $article->title }}
         </h1>
