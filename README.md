@@ -17,6 +17,6 @@ Desarrollado para la asignatura desarrollo backend con PHP del master de desarro
 
 **URLS API:**
 - https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/noticias
-- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/noticias/1
-- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/noticia/1
-- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/categoria/1/2
+- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/noticias/<pagination_number>
+- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/noticia/<article_id>
+- https://eimtcms2.uoclabs.uoc.es/~smansori/pec3/news-app/public/api/categoria/<category_id>/<pagination_number>
